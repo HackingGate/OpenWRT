@@ -1,0 +1,17 @@
+version: "1"
+rules:
+  - base: master
+    upstream: openwrt:master
+    mergeMethod: hardreset
+  - base: lede-17.01
+    upstream: openwrt:lede-17.01
+    mergeMethod: hardreset
+  - base: openwrt-18.06
+    upstream: openwrt:openwrt-18.06
+    mergeMethod: hardreset
+  - base: openwrt-19.07
+    upstream: openwrt:openwrt-19.07
+    mergeMethod: hardreset
+  - base: openwrt-21.02
+    upstream: openwrt:openwrt-21.02
+    mergeMethod: hardreset
